@@ -66,7 +66,7 @@ class ConstanceForm(forms.Form):
 class ConstanceAdmin(admin.ModelAdmin):
     class Media:
         css = {
-            "all": ("css/extra.css",)
+            "all": ("constance/css/extra.css",)
         }
 
     def get_urls(self):
