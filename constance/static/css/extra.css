@@ -1,0 +1,13 @@
+#result_list textarea {
+    max-width: 1000px !important;
+    width: 100% !important;
+    height: 100px;
+}
+
+#result_list td:nth-child(3) {
+    width: 100%;
+}
+
+#result_list {
+    width: 100%;
+}

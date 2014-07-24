@@ -64,6 +64,10 @@ class ConstanceForm(forms.Form):
 
 
 class ConstanceAdmin(admin.ModelAdmin):
+    class Media:
+        css = {
+            "all": ("css/extra.css",)
+        }
 
     def get_urls(self):
         info = self.model._meta.app_label, self.model._meta.module_name
